@@ -1,6 +1,8 @@
-# Getting Started with Create React App
+# Proyecto base Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app) el cual incluye las dependencias React Router, Material UI, React Icons .
+
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app) which includes the dependencies React Router, Material UI, React Icons.
 
 ## Available Scripts
 
