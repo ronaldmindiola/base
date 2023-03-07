@@ -1,0 +1,46 @@
+{
+    "title": "Título de la Página",
+    "subtitle": "Subtítulo de la Página",
+    "brand": {
+      "label": "Brand",
+      "icon": "/icon.png",
+      "logo": "/logo.png",
+      "path": "/"
+    },
+    "pages": [
+      {
+        "label": "Inicio",
+        "path": "/"
+      },
+  
+      {
+        "label": "Productos",
+        "path": "/productos"
+      },
+  
+      {
+        "label": "Galería de Fotos",
+        "path": "/galeria"
+      },
+  
+      {
+        "label": "Servicios",
+        "path": "/servicios"
+      },
+  
+      {
+        "label": "Quienes Somos?",
+        "path": "/nosotros"
+      },
+  
+      {
+        "label": "Novedades",
+        "path": "/blog"
+      },
+  
+      {
+        "label": "Contacto",
+        "path": "/contacto"
+      }
+    ]
+  }
