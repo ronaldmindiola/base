@@ -1,20 +1,16 @@
-import logo from './logo.svg';
-import './App.css';
+//import "./App.css";
+import React from 'react';
+import { BrowserRouter as Router } from "react-router-dom";
+import RoutesApp from "./routes/RoutesApp";
 
 function App() {
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          React + Material UI + React Router 6 + React Icons
-        </p>
-        
-        <p>
-          <code>src/App.js</code> and save to reload.
-        </p>
-      </header>
-    </div>
+    <>
+        <Router>
+          <RoutesApp />
+        </Router>
+    </>
   );
 }
 
