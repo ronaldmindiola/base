@@ -27,7 +27,7 @@ const Hamburger = () => {
         aria-controls="simple-menu"
         aria-haspopup="true"
         //onClick={handleClick}
-        sx={{ mr: 2, display: { xs: "flex", md: "none" } }}
+        sx={{ mr: 2, display: { sm: "flex", md: "none" } }}
       >
         <MdMenu />
       </IconButton>

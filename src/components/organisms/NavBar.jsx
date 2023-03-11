@@ -15,8 +15,8 @@ const NavBar = () => {
       >
         <Toolbar>
           <Hamburger />
-          <Brand label="Titulo de la Pagina" />
-          <NavList />
+          <Brand />
+          <NavList/>
           <Mode />
         </Toolbar>
       </AppBar>
