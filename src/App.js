@@ -1,10 +1,10 @@
 //import "./App.css";
-import { CssBaseline, ThemeProvider } from '@mui/material';
 import React from 'react';
 import { BrowserRouter as Router } from "react-router-dom";
+import { CssBaseline, ThemeProvider } from '@mui/material';
 import RoutesApp from "./routes/RoutesApp";
 import theme from "./theme";
-import ThemeContext from "./context/ThemeContext";
+import ThemeContext from "./contexts/ThemeContext";
 import NavBar from './components/organisms/NavBar';
 
 function App() {

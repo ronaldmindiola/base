@@ -19,11 +19,10 @@ const Brand = () => {
         alt="logo"
         style={{ verticalAlign: "middle", marginRight: "16px" }}
       />
-
+      
       <Typography variant="h6" display="inline">
         {label}
       </Typography>
-      
     </Box>
   );
 };

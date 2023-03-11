@@ -11,12 +11,12 @@ const NavBar = () => {
   return (
     <>
       <AppBar
-        position="fixed" /* color='primary' */ /* sx={{ backgroundColor: '#ffffff' }} */
+         position="fixed" /* color='primary' */ /* sx={{ backgroundColor: '#ffffff' }} */
       >
-        <Toolbar>
+        <Toolbar sx={{ justifyContent: 'space-between' }}>
           <Hamburger />
           <Brand />
-          <NavList/>
+          <NavList />
           <Mode />
         </Toolbar>
       </AppBar>
