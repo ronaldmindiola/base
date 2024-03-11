@@ -15,7 +15,7 @@ const RoutesApp = () => {
         <Route path="/blog" element={<BlogPage />} />
         <Route path="/nosotros" element={<AboutPage />} />
         <Route path="/contacto" element={<ContactPage />} />
-        <Route path="*" element={<NotFoundPage />} />
+        <Route path={"*"} element={<NotFoundPage />} />
       </Routes>
     </>
   );
