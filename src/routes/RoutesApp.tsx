@@ -4,6 +4,7 @@ import ContactPage from "../components/pages/ContactPage";
 import AboutPage from "../components/pages/AboutPage";
 import BlogPage from "../components/pages/BlogPage";
 import ServicesPage from "../components/pages/ServicesPage";
+import NotFoundPage from "../components/pages/NotFoundPage";
 
 const RoutesApp = () => {
   return (
@@ -14,7 +15,7 @@ const RoutesApp = () => {
         <Route path="/blog" element={<BlogPage />} />
         <Route path="/nosotros" element={<AboutPage />} />
         <Route path="/contacto" element={<ContactPage />} />
-        <Route path="*" element={<HomePage />} />
+        <Route path="*" element={<NotFoundPage />} />
       </Routes>
     </>
   );
