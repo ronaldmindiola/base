@@ -1,9 +1,11 @@
 import { Route, Routes } from "react-router-dom";
+
+// Componentes
 import HomePage from "../components/pages/HomePage";
-import ContactPage from "../components/pages/ContactPage";
-import AboutPage from "../components/pages/AboutPage";
-import BlogPage from "../components/pages/BlogPage";
 import ServicesPage from "../components/pages/ServicesPage";
+import BlogPage from "../components/pages/BlogPage";
+import AboutPage from "../components/pages/AboutPage";
+import ContactPage from "../components/pages/ContactPage";
 import NotFoundPage from "../components/pages/NotFoundPage";
 
 const RoutesApp = () => {
