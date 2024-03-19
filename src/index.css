@@ -2,16 +2,3 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-/* Define los estilos base */
-@layer base {
-  * {
-    /* Asegura un box-sizing consistente */
-    box-sizing: border-box;
-    /* Reinicia los márgenes y los rellenos */
-    margin: 0;
-    padding: 0;
-    /* Establece un tamaño de fuente predeterminado */
-    font-size: 16px;
-  }
-}
